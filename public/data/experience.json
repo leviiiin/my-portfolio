@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "role": "Middle Front-end Developer",
+    "company": "Lamantine Software",
+    "duration": "09.2024 - Present",
+    "responsibilities": [
+      "Engineered scalable web applications using React and JavaScript, focusing on modular architecture and state management efficiency",
+      "Architected complex, high-performance layouts with a focus on Core Web Vitals, achieving significant improvements in page load speed and Lighthouse scores",
+      "Developed a library of reusable UI components and design system tokens using CSS/SASS, reducing development time for new features by 30%",
+      "Integrated complex business logic by consuming REST APIs, implementing robust data fetching patterns, and handling advanced error states",
+      "Enhanced user engagement by implementing high-quality interactive elements and smooth SVG/CSS animations, ensuring a premium look and feel",
+      "Introduced performance optimization techniques (code-splitting, lazy loading, image optimization) that directly contributed to increased conversion rates"
+    ]
+  },
+  {
+    "id": 2,
+    "role": "Junior Front-end Developer",
+    "company": "Revitta",
+    "duration": "07.2023 - 08.2024",
+    "responsibilities": [
+      "Developed responsive web applications using HTML, CSS, and JavaScript, ensuring optimal performance across various devices",
+      "Collaborated with UX/UI designers to create user-friendly interfaces that enhance user experience",
+      "Integrated RESTful APIs to enhance application capabilities and user interactivity",
+      "Assisted in the migration of legacy code to modern frameworks to improve maintainability and performance",
+      "Optimized website loading times by employing best practices in performance tuning and image compression techniques"
+    ]
+  }
+]

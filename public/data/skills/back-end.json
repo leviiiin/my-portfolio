@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Node.js",
+    "logo": "/images/skills/nodejs.png"
+  },
+  {
+    "id": 2,
+    "title": "Express.js",
+    "logo": "/images/skills/expressjs.png"
+  },
+  {
+    "id": 3,
+    "title": "Zod",
+    "logo": "/images/skills/zod.png"
+  },
+  {
+    "id": 4,
+    "title": "Mongoose",
+    "logo": "/images/skills/mongoose.png"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "React",
+    "logo": "/images/skills/react.png"
+  },
+  {
+    "id": 2,
+    "title": "Next.js",
+    "logo": "/images/skills/nextjs.png"
+  },
+  {
+    "id": 3,
+    "title": "HTML",
+    "logo": "/images/skills/html.png"
+  },
+  {
+    "id": 4,
+    "title": "CSS",
+    "logo": "/images/skills/css.png"
+  },
+  {
+    "id": 5,
+    "title": "SASS",
+    "logo": "/images/skills/sass.png"
+  },
+  {
+    "id": 6,
+    "title": "Tailwind",
+    "logo": "/images/skills/tailwindcss.png"
+  },
+  {
+    "id": 7,
+    "title": "Zustand",
+    "logo": "/images/skills/zustand.svg"
+  },
+  {
+    "id": 8,
+    "title": "shadcn/ui",
+    "logo": "/images/skills/shadcnui.png"
+  },
+  {
+    "id": 9,
+    "title": "RadixUI",
+    "logo": "/images/skills/radixui.png"
+  },
+  {
+    "id": 10,
+    "title": "Vite",
+    "logo": "/images/skills/vite.png"
+  }
+]

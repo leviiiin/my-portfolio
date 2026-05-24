@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "MongoDB",
+    "logo": "/images/skills/mongodb.png"
+  },
+  {
+    "id": 2,
+    "title": "Supabase",
+    "logo": "/images/skills/supabase.webp"
+  }
+]

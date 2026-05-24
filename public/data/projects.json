@@ -1,0 +1,54 @@
+[
+  {
+    "id": 6,
+    "title": "Visodent NY",
+    "productionLink": "https://visodentny.com/",
+    "image": "/images/projects/project-6.png",
+    "color": "#bfdbf9"
+  },
+  {
+    "id": 1,
+    "title": "Boardly",
+    "description": "Boardly - is a modern task management application designed to streamline team workflows. It allows users to create multiple boards with customizable columns, making it easy to structure and adapt workflows to any project’s needs.",
+    "productionLink": "https://boardly-sigma.vercel.app/",
+    "codeLink": "https://github.com/leviiiin/boardly",
+    "image": "/images/projects/project-1.jpg",
+    "color": "#00A63E"
+  },
+  {
+    "id": 2,
+    "title": "Cryptonerve",
+    "description": "CryptoNerve — a high-performance Next.js 16 dashboard delivering real-time crypto market data, live orderbooks, and TradingView charts via WebSockets and CoinGecko.",
+    "productionLink": "https://cryptonerve.vercel.app/",
+    "codeLink": "https://github.com/leviiiin/cryptonerve",
+    "image": "/images/projects/project-2.png",
+    "color": "#00d3f3"
+  },
+  {
+    "id": 3,
+    "title": "Apple MacBook Website",
+    "description": "Apple 3D website built with React, Three.js, GSAP, and Tailwind.",
+    "productionLink": "https://macbook-gsap-six.vercel.app/",
+    "codeLink": "https://github.com/leviiiin/macbook_gsap",
+    "image": "/images/projects/project-3.png",
+    "color": "#0071e3"
+  },
+  {
+    "id": 4,
+    "title": "Connectly",
+    "description": "Video conferencing platform",
+    "productionLink": "https://connectly-ten.vercel.app/sign-in",
+    "codeLink": "https://github.com/leviiiin/connectly",
+    "image": "/images/projects/project-4.png",
+    "color": "#5eead4"
+  },
+  {
+    "id": 5,
+    "title": "Polar",
+    "description": "Adaptive website build with HTML, SCSS, JavaScript.",
+    "productionLink": "https://leviiiin.github.io/Polar/",
+    "codeLink": "https://github.com/leviiiin/Polar",
+    "image": "/images/projects/project-5.png",
+    "color": "#d64374"
+  }
+]

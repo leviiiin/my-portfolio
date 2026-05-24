@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+/* Fonts */
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/Manrope-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/Manrope-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/Manrope-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("./assets/fonts/Manrope-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Hanson";
+  src: url("./assets/fonts/Hanson.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui;
+  --font-hanson: "Hanson", ui-sans-serif, system-ui;
+}
+
+@keyframes border-rotate {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+/* RGB effects */
+@keyframes rotate-bg {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate-bg {
+  animation: rotate-bg 3s linear infinite;
+}
+
+@keyframes fluid-rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-fluid {
+  background-size: 300% 300%;
+  animation: fluid-rgb 5s ease infinite;
+}
+
+/* Marquee anim */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 50s linear infinite;
+}
+
+.group:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
+/*  */
+
+.section {
+  @apply border-y border-gray-800 py-20 px-8 max-md:py-8 max-md:pt-12 max-sm:px-4 max-sm:pb-4;
+}
+
+.section .title {
+  @apply text-5xl font-hanson text-gray-800 tracking-wider uppercase max-sm:text-2xl;
+}
