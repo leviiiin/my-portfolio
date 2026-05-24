@@ -27,8 +27,26 @@ const Projects = () => {
                 {i.description && i.description}
               </p>
               <div className="flex gap-4 mt-4 text-gray-600 *:underline *:hover:decoration-double text-lg">
-                {i.productionLink && <a href={i.productionLink}>Demo</a>}
-                {i.codeLink && <a href={i.codeLink}>Code</a>}
+                {i.productionLink && (
+                  <a
+                    href={i.productionLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Demo"
+                  >
+                    Demo
+                  </a>
+                )}
+                {i.codeLink && (
+                  <a
+                    href={i.codeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Code"
+                  >
+                    Code
+                  </a>
+                )}
               </div>
             </div>
             <div

@@ -47,24 +47,26 @@ const App = () => {
       <div className="xl:max-w-322.5 mx-auto px-4">
         <div className="border-l border-r border-gray-800">
           <Header />
-          <Hero />
-          <LinePattern direction="right" />
-          <About />
-          <Marquee
-            text="Check out my CV"
-            link="https://cv.djinni.co/3f/5dcc32e8226c7cf498178cda4fcc25/CV_Levin_Ihor_Front-end.pdf"
-          />
-          <Experience />
-          <PixelDistortionDivider />
-          <Skills />
-          <LinePattern direction="left" />
-          <Projects />
-          <Marquee
-            text="Check out more projects on Github."
-            style="dark"
-            link="https://github.com/leviiiin"
-          />
-          <Contact />
+          <main role="main">
+            <Hero />
+            <LinePattern direction="right" />
+            <About />
+            <Marquee
+              text="Check out my CV"
+              link="https://cv.djinni.co/3f/5dcc32e8226c7cf498178cda4fcc25/CV_Levin_Ihor_Front-end.pdf"
+            />
+            <Experience />
+            <PixelDistortionDivider />
+            <Skills />
+            <LinePattern direction="left" />
+            <Projects />
+            <Marquee
+              text="Check out more projects on Github."
+              style="dark"
+              link="https://github.com/leviiiin"
+            />
+            <Contact />
+          </main>
           <Footer />
         </div>
       </div>
@@ -74,6 +76,7 @@ const App = () => {
         className={`fixed bottom-6 right-6 border border-transparent hover:border-gray-800 p-2 cursor-pointer transition-all duration-300 bg-white/80 backdrop-blur-sm z-50
           ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}
         `}
+        aria-label="Scroll to top"
       >
         <ArrowUp className="w-6 h-6 text-gray-800" />
       </button>

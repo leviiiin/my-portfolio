@@ -8,13 +8,14 @@ const Header = () => {
   const menuItems = ["About", "Experience", "Skills", "Projects", "Contact"];
 
   return (
-    <header className="bg-white relative z-50">
+    <header className="bg-white relative z-50" role="banner">
       <div className="bg-white flex items-center justify-between px-8 pt-12 pb-4 relative z-20">
         <div className="text-xl font-semibold uppercase">Ihor Levin</div>
 
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="p-2 border border-transparent hover:border-gray-800 transition-colors duration-300 cursor-pointer z-50"
+          aria-label="Menu Toggle Button"
         >
           {isOpen ? (
             <X className="w-6 h-6" />
@@ -39,6 +40,7 @@ const Header = () => {
               href={`#${item.toLowerCase()}`}
               onClick={() => setIsOpen(false)}
               className="flex items-center justify-center w-full h-full text-gray-800 group-hover:text-white transition-colors duration-300"
+              aria-label={item}
             >
               <span className="font-semibold text-sm tracking-widest uppercase">
                 {item}

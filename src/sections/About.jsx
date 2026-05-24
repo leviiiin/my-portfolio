@@ -4,9 +4,9 @@ import RGBWrapper from "../components/RGBWrapper";
 const About = () => {
   return (
     <section className="section" id="about">
-      <h1 className="title" data-aos="zoom-in-right">
+      <h2 className="title" data-aos="zoom-in-right">
         About me
-      </h1>
+      </h2>
       <div className="mt-6 max-md:mt-4" data-aos="fade-right">
         <p className="text-[22px] max-sm:text-sm text-gray-800 leading-9 max-sm:leading-6 tracking-wider max-sm:tracking-normal text-justify [hyphens:auto]">
           Front-end developer with a strong foundation in crafting responsive

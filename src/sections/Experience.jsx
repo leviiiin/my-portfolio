@@ -13,9 +13,9 @@ const Experience = () => {
       className="section border-t-transparent! pb-10! max-md:pb-4!"
       id="experience"
     >
-      <h1 className="title" data-aos="zoom-in-right">
+      <h2 className="title" data-aos="zoom-in-right">
         Experience
-      </h1>
+      </h2>
 
       {loading ? (
         <div className="my-50 flex justify-center">
